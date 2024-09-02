@@ -29,7 +29,8 @@ jobs:
         find . -name "*.py" -exec flake8 {} +
         echo "Linted all the python files successfully"
   lint_js:
-      name: Lint JavaScript Files
+      name: Lint JavaScript 
+      Files
       runs-on: ubuntu-latest
       steps:
       - name: Checkout Repository
