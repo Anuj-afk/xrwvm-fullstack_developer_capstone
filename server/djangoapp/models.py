@@ -43,7 +43,7 @@ class CarModel(models.Model):
         ])
     # Other fields as needed
     def __str__(self):
-        return "Car make: " + str(self.car_make["Name"]) + 
-        "Name: " + self.name + "type: " + 
+        return "Car make: " + str(self.car_make["Name"]) + /
+        "Name: " + self.name + "type: " + /
         self.type + "Year: " + str(self.year)  # Return the name as the string representation
 
