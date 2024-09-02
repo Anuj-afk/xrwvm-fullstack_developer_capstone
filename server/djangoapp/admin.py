@@ -16,7 +16,7 @@ class CarModelAdmin(admin.ModelAdmin):
 # CarMakeAdmin class with CarModelInline
 
 
-class  CarMakeAdmin(admin.ModelAdmin):
+class CarMakeAdmin(admin.ModelAdmin):
     fields = ['name', 'description']
     inlines = [CarModelInline]
 # Register models here
